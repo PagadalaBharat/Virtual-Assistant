@@ -65,7 +65,9 @@ function takeCommand(message) {
     msg.includes("hey") ||
     msg.includes("hii") ||
     msg.includes("hi") ||
-    msg.includes("hello,")
+    msg.includes("hello,")||
+    msg.includes("hello")
+
   ) {
     //    console.log("hello sir")
     speak("hello how can i help you sir ");
